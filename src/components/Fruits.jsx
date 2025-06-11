@@ -2,7 +2,6 @@ import React from "react";
 import Fruit from "./Fruit";
 
 // const fruits = ["Apple", "Pineapple", "Banana", "Mango", "Papaya"];
-
 const fruits = [
   { name: "Apple", price: 10, emoji: "🍎" },
   { name: "Banana", price: 2, emoji: "🍌" },
