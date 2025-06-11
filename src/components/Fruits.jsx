@@ -1,4 +1,5 @@
 import React from "react";
+import Fruit from "./Fruit";
 
 // const fruits = ["Apple", "Pineapple", "Banana", "Mango", "Papaya"];
 
@@ -15,11 +16,7 @@ function Fruits() {
     <div>
       <ul>
         {fruits.map((fruit) => {
-          return (
-            <li>
-              {fruit.emoji} {fruit.name} ${fruit.price}
-            </li>
-          );
+          return <Fruit fruit={fruit} />;
         })}
       </ul>
     </div>
