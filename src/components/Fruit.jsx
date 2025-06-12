@@ -1,15 +1,11 @@
 import React from "react";
 
-function Fruit({ fruit }) {
+function Fruit({ name, emoji, price, soldout }) {
   return (
     <>
-      {fruit.price > 4 ? (
-        <li>
-          {fruit.emoji} {fruit.name} ${fruit.price}
-        </li>
-      ) : (
-        ""
-      )}
+      <li>
+        {emoji} {name} ${price} {soldout ? "soldout" : ""}
+      </li>
     </>
   );
 }
