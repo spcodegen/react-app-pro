@@ -5,7 +5,7 @@ import Fruits from "./components/Fruits";
 function App() {
   return (
     <>
-      <ConditionalComponent />
+      <Fruits />
     </>
   );
 }
